@@ -17,6 +17,7 @@ from setuptools import setup, find_packages
 setup(
     name = proj_info['name'],
     version = VERSION,
+    encoding = 'utf8',
     
     author = proj_info['author'],
     author_email = proj_info['author_email'],
