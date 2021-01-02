@@ -1,32 +1,25 @@
 # python-romkan
 
-[![Build Status](https://api.travis-ci.org/soimort/python-romkan.png)](https://travis-ci.org/soimort/python-romkan) [![PyPI version](https://badge.fury.io/py/romkan.png)](http://badge.fury.io/py/romkan)
+[python-romkan](https://github.com/tejstead/python-romkan) is a Romaji/Kana conversion library for Python, which is used to convert a Japanese Romaji (ローマ字) string to a Japanese Kana (仮名) string or vice versa.
 
-[python-romkan](https://github.com/soimort/python-romkan) is a Romaji/Kana conversion library for Python, which is used to convert a Japanese Romaji (ローマ字) string to a Japanese Kana (仮名) string or vice versa.
+This is a fork of python-romkan to fix compatibility issues with a single Discord bot, 99.9% of the code is identical.
 
 It is the Pythonic port of [Ruby/Romkan](http://0xcc.net/ruby-romkan/index.html.en), originally authored by Satoru Takabayashi and [ported](http://lilyx.net/python-romkan/) by Masato Hagiwara.
 
-[python-romkan](https://github.com/soimort/python-romkan) works on Python 2 and Python 3 (fully tested on __Python 2.6__, __2.7__, __3.2__, __3.3__ and __PyPy__). It handles both Katakana (片仮名) and Hiragana (平仮名) with the Hepburn (ヘボン式) romanization system, as well as the modern Kunrei-shiki (訓令式) romanization system.
+[python-romkan](https://github.com/tejstead/python-romkan) works on Python 2 and Python 3 (fully tested on __Python 2.6__, __2.7__, __3.2__, __3.3__ and __PyPy__). It handles both Katakana (片仮名) and Hiragana (平仮名) with the Hepburn (ヘボン式) romanization system, as well as the modern Kunrei-shiki (訓令式) romanization system.
 
 Project homepage: <http://www.soimort.org/python-romkan>
 
-Fork me on GitHub: <https://github.com/soimort/python-romkan>
+Forked from: <https://github.com/soimort/python-romkan>
 
 
 
 ## Installation
 
-### 1. Install via [Pip](http://www.pip-installer.org/):
-
-    $ pip install romkan
     
-### 2. Install via [EasyInstall](http://pypi.python.org/pypi/setuptools):
+### Install from Git:
 
-    $ easy_install romkan
-    
-### 3. Install from Git:
-
-    $ git clone git://github.com/soimort/python-romkan.git
+    $ git clone git://github.com/tejstead/python-romkan.git
     $ python setup.py install
 
 
